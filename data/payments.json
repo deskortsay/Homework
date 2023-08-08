@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "type": "credit",
+        "amount": 500000,
+        "created_at": 1690465881,
+        "comment": "BE2 guruhi uchun 1 oylik yechib olindi"
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "type": "debit",
+        "amount": 600000,
+        "created_at": 1690466000,
+        "comment": "Naqd pul orqali to'lov qildi"
+    }
+]

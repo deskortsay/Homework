@@ -1,0 +1,48 @@
+<div class="login-box">
+      <div class="login-logo">
+        <a href="#">O'quvchi kabineti</a>
+      </div>
+
+      <div class="card">
+        <div class="card-body login-card-body">
+          <p class="login-box-msg">Kirish</p>
+          {{#if error}}
+            <div class="alert alert-danger">
+              <p>{{error}}</p>
+            </div>
+          {{/if}}
+          <form action="" method="post">
+            <div class="input-group mb-3">
+              <input type="text" name="username" class="form-control" placeholder="Login" />
+              <div class="input-group-append">
+                <div class="input-group-text">
+                  <span class="fas fa-envelope"></span>
+                </div>
+              </div>
+            </div>
+            <div class="input-group mb-3">
+              <input type="password" name="password" class="form-control" placeholder="Parol" />
+              <div class="input-group-append">
+                <div class="input-group-text">
+                  <span class="fas fa-lock"></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-block">Kirish</button>
+              </div>
+
+            </div>
+          </form>
+
+          <p class="mb-1">
+            <a href="#">Parolni unutdim</a>
+          </p>
+          <p class="mb-0">
+            <a href="#" class="text-center">Ro'yxatdan o'tish</a>
+          </p>
+        </div>
+
+      </div>
+    </div>

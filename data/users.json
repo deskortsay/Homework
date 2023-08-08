@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "username": "ruslanmedia",
+        "password": "123123123",
+        "full_name": "Ruslan Rustamov",
+        "balance": 0
+    },
+    {
+        "id": 2,
+        "username": "sayidbek",
+        "password": "123456",
+        "full_name": "Sayidbek",
+        "balance": 0
+    }
+]
